@@ -30,6 +30,59 @@ public class Human {
 		return sex;
 	}
 	
+
+	public void setName(String name)
+	{
+		this.name = name;
+	}
 	
+	public String getName()
+	{
+		return name;
+	}
 	
+	public void setWeight(Double weight)
+	{
+		this.weight = weight;
+	}
+	
+	public Double getWeight()
+	{
+		return weight;
+	}
+	
+	public void setHeight(Double height)
+	{
+		this.height = height;
+	}
+	
+	public Double getHeight()
+	{
+		return height;
+	}
+	
+	public void setAge(Integer age)
+	{
+		this.age = age;
+	}
+	
+	public Integer getAge()
+	{
+		return age;
+	}
+	
+	public String print() 
+	{
+		String printableString = "This is a human: ";
+		printableString = printableString + age.toString();
+		printableString += ", ";
+		printableString += name;
+		printableString += ", ";
+		printableString += weight.toString();
+		printableString += ", ";
+		printableString += height.toString();
+		printableString += ", ";
+		printableString += sex;
+		return printableString;
+	}
 }

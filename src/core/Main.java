@@ -21,6 +21,8 @@ public class Main {
 		System.out.println(number);
 		System.out.println(decimal);
 		System.out.println(ethan.getSex());
+		System.out.println(connor.print());
+		
 	}
 
 }
