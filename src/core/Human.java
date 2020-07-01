@@ -29,7 +29,6 @@ public class Human {
 	{
 		return sex;
 	}
-	
 
 	public void setName(String name)
 	{
